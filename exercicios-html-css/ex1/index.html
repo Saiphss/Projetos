@@ -4,38 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Tabela</title>
 </head>
 <body>
     
-    <h1>Modelo internet</h1>
+    <h1 id="main-title">Modelo internet</h1>
     <header>Camadas e protocolos</header>
 
     <!--Aprendi até aqui-->
-    <h2>Pilha TCP/IP</h2>
-    <table>
-        <thead>
+    <h2 class="sec-title">Pilha TCP/IP</h2>
+    <table class="container">
+        <thead class="card-box">
             <tr >
                 <th >Camada</th>
                 <th>Protocolo</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="box">
             <tr>
-                <td >Aplicação</td>
-                <td >HTTP, FTP, TLS, SIP e NETBIOS</td>
+                <td class="card-title">Aplicação</td>
+                <td class="card-content">HTTP, FTP, TLS, SIP e NETBIOS</td>
             </tr>
             <tr>
-                <td >Transporte</td>
-                <td >TCP e UDP</td>
+                <td class="card-title">Transporte</td>
+                <td class="card-content">TCP e UDP</td>
             </tr>
             <tr>
-                <td >Internet</td>
-                <td >IP, ICMP, NAT e ARP</td>
+                <td class="card-title">Internet</td>
+                <td class="card-content">IP, ICMP, NAT e ARP</td>
             </tr>
             <tr>
-                <td >Rede</td>
-                <td >Ethernet e WI-FI</td>
+                <td class="card-title">Rede</td>
+                <td class="card-content">Ethernet e WI-FI</td>
             </tr>
         </tbody>
     </table>
