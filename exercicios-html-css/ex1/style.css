@@ -12,3 +12,11 @@ td
 {
     background-color: #8352F7;
 }
+#main-title
+{
+    text-align: center;
+}
+.container
+{
+    width: 100%;
+}
